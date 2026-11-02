@@ -1,8 +1,3 @@
-- 👋 Hi, I’m Rafli
-- 🎯 Aspiring Data Scientist
-- 💞️ I’m looking to collaborate on Data Science & Analytics projects
-- 📫 You can contact me on my email rafli.4lyfe@gmail.com
-
 ## 🛠️ Tech Stack
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
