@@ -1,55 +1,6 @@
-### 📓 `rafli.ipynb`
-<sub>Kernel: Python 3 (data-science) · ● Idle</sub>
+## Hi, I'm Rafli 👋
 
----
-
-`In [1]:`
-```python
-from sklearn.pipeline import Pipeline
-from rafli import About, TechStack, Projects, Contact
-```
-
-`In [2]:`
-```python
-rafli = Pipeline([
-    ("load_data",   About()),      # who I am
-    ("feature_eng", TechStack()),  # what I use
-    ("model",       Projects()),   # what I build
-    ("deploy",      Contact()),    # where to find me
-])
-rafli
-```
-
-`Out[2]:`
-```mermaid
-flowchart LR
-    A["load_data<br/>About"] --> B["feature_eng<br/>TechStack"] --> C["model<br/>Projects"] --> D["deploy<br/>Contact"]
-```
-
----
-
-`In [3]:`
-```python
-rafli.named_steps["load_data"].info()
-```
-
-`Out[3]:`
-```text
-<class 'rafli.About'>
-name     : Rafli
-role     : Aspiring Data Scientist
-focus    : Machine Learning · Computer Vision · NLP · Time Series
-status   : open to collaborate
-```
-
----
-
-`In [4]:`
-```python
-rafli.named_steps["feature_eng"].get_feature_names_out()
-```
-
-`Out[4]:`
+Aspiring Data Scientist working on machine learning, computer vision, and NLP projects.
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
@@ -61,40 +12,16 @@ rafli.named_steps["feature_eng"].get_feature_names_out()
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 
----
+### Featured Projects
 
-`In [5]:`
-```python
-rafli.named_steps["model"].projects.head()
-```
+| Project | What it does |
+|---|---|
+| [Tokopedia Review Insights](https://github.com/rafli-1729/tokopedia-user-reviews-insights) | Finds product issues and sentiment trends from 5 years of app reviews |
+| [Indonesian Food Classifier](https://github.com/rafli-1729/semi-supervised-food-classification) | Recognizes 15 traditional Indonesian dishes from photos |
+| [Rainfall Prediction](https://github.com/rafli-1729/cross-modal-rainfall-prediction-system) | Forecasts daily rainfall from weather data and images |
+| [Health Insurance Analytics](https://github.com/rafli-1729/health-insurance-charges-analytics) | Explains which health factors drive insurance costs |
+| [Indonesian Heritage Classifier](https://github.com/rafli-1729/indonesian-heritage-classification) | Identifies five traditional Indonesian houses from photos |
 
-`Out[5]:`
+### Contact
 
-|   | project | task | highlights |
-|---|---|---|---|
-| 0 | [tokopedia-user-reviews-insights](https://github.com/rafli-1729/tokopedia-user-reviews-insights) | NLP · RAG | 5 years of Play Store reviews, sentiment trends, semantic search |
-| 1 | [semi-supervised-food-classification](https://github.com/rafli-1729/semi-supervised-food-classification) | Computer Vision | CNN fine-tuning + DINOv2 embeddings, iterative pseudo-labeling |
-| 2 | [cross-modal-rainfall-prediction-system](https://github.com/rafli-1729/cross-modal-rainfall-prediction-system) | CV · Time Series | image-based data extraction + gradient boosting |
-| 3 | [health-insurance-charges-analytics](https://github.com/rafli-1729/health-insurance-charges-analytics) | Regression | XGBoost, LightGBM & DNN, feature importance |
-| 4 | [indonesian-heritage-classification](https://github.com/rafli-1729/indonesian-heritage-classification) | Computer Vision | fastai + PyTorch + timm, traditional Indonesian houses |
-
----
-
-`In [6]:`
-```python
-rafli.named_steps["deploy"].endpoints
-```
-
-`Out[6]:`
-```text
-{'email':     'rafli.4lyfe@gmail.com',
- 'github':    'github.com/rafli-1729',
- 'portfolio': 'rafli-1729.github.io'}
-```
-
----
-
-`In [ ]:`
-```python
-# rafli.fit(new_data)  → still training...
-```
+📫 [rafli.4lyfe@gmail.com](mailto:rafli.4lyfe@gmail.com) · 🌐 [rafli-1729.github.io](https://rafli-1729.github.io)
